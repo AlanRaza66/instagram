@@ -1,7 +1,10 @@
 export default defineAppConfig({
   ui: {
-    primary: "purple-pizzazz",
+    pink: "purple-pizzazz",
     yellow: "corn",
-    red: "red-orange"
-  }
+    red: "red-orange",
+    notifications: {
+      position: "top-0 right-0",
+    },
+  },
 });

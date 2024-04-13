@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { publicProcedure, router } from "../trpc";
+import { userRouter } from "./user.router";
 
 export const appRouter = router({
   hello: publicProcedure
@@ -13,7 +14,8 @@ export const appRouter = router({
         greeting: `hello ${input?.text ?? "world"}`,
         time: new Date()
       };
-    })
+    }),
+  users: userRouter
 });
 
 // export type definition of API

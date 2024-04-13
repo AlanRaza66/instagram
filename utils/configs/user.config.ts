@@ -1,0 +1,7 @@
+export const userConfig = {
+  NAME_MIN_LENGTH: 3,
+  NAME_MAX_LENGTH: 75,
+  USERNAME_MIN_LENGTH: 1,
+  USERNAME_MAX_LENGTH: 50,
+  PASSWORD_MIN_LENGTH: 8,
+};
